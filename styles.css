@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 300px;
+    background-image:url("/img/fundocabecario.jpg");
+    background-size: 40% cover;
+    width: 100%;
+    margin: 0px;
+    background-position-x: 150px;
+}
+
+header img{
+    position: absolute;
+    height: 250px;
+    padding-left: 560px;
+    margin-bottom: 100px;
+}
+
+header p {
+    text-align: center;
+    padding-top: 230px;
+    color: rgb(250, 225, 6);
+    padding-right: 10px;
+    font-size: 30pt;
+}
