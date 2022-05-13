@@ -5,25 +5,35 @@
 }
 
 header{
-    height: 300px;
-    background-image:url("/img/fundocabecario.jpg");
-    background-size: 40% cover;
+    height: 260px;
+    background-image:url("/img/wppblackwood.jpg");
+    background-size: 100%;
     width: 100%;
     margin: 0px;
     background-position-x: 150px;
 }
 
 header img{
+    box-sizing: border-box;
     position: absolute;
     height: 250px;
-    padding-left: 560px;
+    padding-left: 540px;
     margin-bottom: 100px;
 }
 
-header p {
-    text-align: center;
-    padding-top: 230px;
-    color: rgb(250, 225, 6);
-    padding-right: 10px;
-    font-size: 30pt;
+#barraguia ul li{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#barraguia ul{
+    text-decoration: underline;
+    padding-left: 250px;
+}
+main{
+    background-color: rgba(170, 85, 0, 0.774);
+}
+footer{
+    background-color: rgb(61, 23, 0);
+    color:white;
 }
